@@ -1,5 +1,13 @@
 # airat-phpmyadmin-update
-A script for quickly updating [phpMyAdmin](https://www.phpmyadmin.net/) on a server.
+
+A script for quickly and safely updating [phpMyAdmin](https://www.phpmyadmin.net/) on a server. It automates the download, backup, installation, and configuration process.
+
+## Features:
+- Automatically downloads the specified version of phpMyAdmin.
+- Creates a backup of the existing phpMyAdmin directory (if it exists).
+- Installs the new version to `/usr/share/phpmyadmin`.
+- Configures the `blowfish_secret` in the `config.inc.php` file with a randomly generated key.
+- Sets proper permissions for the `tmp` folder.
 
 ## Installation and Usage:
 ```bash
@@ -10,10 +18,10 @@ cd airat-phpmyadmin-update
 sudo ./airat-phpmyadmin-update.sh
 ```
 
-**Notes:**
-- The script works with the `/usr/share/phpmyadmin` folder. If your `phpMyAdmin` is installed in a different directory, simply update the `PMADIR` variable.
-- Before running the script, remember to update the phpMyAdmin version in the `VER` variable.
-- The `blowfish_secret` key in the `config.inc.php` file is automatically generated and added by the script.
-- A quick reference guide with explanations can be found [here](https://www.dmosk.ru/miniinstruktions.php?mini=phpmyadmin-update).
+## Notes:
+- The script assumes phpMyAdmin is installed in `/usr/share/phpmyadmin`. If it is in a different directory, update the `PMADIR` variable in the script.
+- Update the `VER` variable in the script to the desired phpMyAdmin version before running it.
+- A backup of the current phpMyAdmin directory is automatically created with a timestamped name (e.g., `/usr/share/phpmyadmin.backup-<timestamp>`).
+- The script ensures the `tmp` directory is writable by setting `chmod 777`.
 
-Feel free to suggest or add improvements if needed. 
+Feel free to suggest or add improvements if needed.
