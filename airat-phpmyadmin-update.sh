@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Author: Airat Halitov
-# GitHub: https://github.com/AiratHalitov/airat-phpmyadmin-update
+# GitHub: https://github.com/AiratTop/airat-phpmyadmin-update
 # License: GPLv3
 
 # don't forget update version!
