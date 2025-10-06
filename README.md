@@ -1,4 +1,4 @@
-# airat-phpmyadmin-update
+# phpmyadmin-update
 
 A script for quickly and safely updating [phpMyAdmin](https://www.phpmyadmin.net/) on a server. It automates the download, backup, installation, and configuration process.
 
@@ -11,11 +11,11 @@ A script for quickly and safely updating [phpMyAdmin](https://www.phpmyadmin.net
 
 ## Installation and Usage:
 ```bash
-git clone https://github.com/AiratTop/airat-phpmyadmin-update
+git clone https://github.com/AiratTop/phpmyadmin-update
 
-cd airat-phpmyadmin-update
+cd phpmyadmin-update
 
-sudo ./airat-phpmyadmin-update.sh
+sudo ./phpmyadmin-update.sh
 ```
 
 ## Notes:
