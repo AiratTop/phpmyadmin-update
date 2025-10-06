@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Author: Airat Halitov
-# GitHub: https://github.com/AiratTop/airat-phpmyadmin-update
+# GitHub: https://github.com/AiratTop/phpmyadmin-update
 # License: GPLv3
 
 # Ensure script runs with sudo
