@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Author: Airat Halitov
+# Author: Airat Halitov @AiratTop
 # GitHub: https://github.com/AiratTop/phpmyadmin-update
-# License: GPLv3
+# License: MIT
 
 # Ensure script runs with sudo
 if [ "$EUID" -ne 0 ]; then
