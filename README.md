@@ -25,3 +25,17 @@ sudo ./phpmyadmin-update.sh
 - The script ensures the `tmp` directory is writable by setting `chmod 777`.
 
 Feel free to suggest or add improvements if needed.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Author
+
+**Airat Halitov**
+
+- Website: [airat.top](https://airat.top)
+- GitHub: [@AiratTop](https://github.com/AiratTop)
+- Repository: [phpmyadmin-update](https://github.com/AiratTop/phpmyadmin-update)
