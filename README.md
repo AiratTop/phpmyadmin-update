@@ -1,5 +1,7 @@
 # phpmyadmin-update
 
+![phpmyadmin-update](https://repository-images.githubusercontent.com/321394331/b9c6c4a7-0651-4c35-a75d-2fae39d09120)
+
 A script for quickly and safely updating [phpMyAdmin](https://www.phpmyadmin.net/) on a server. It automates the download, backup, installation, and configuration process.
 
 ## Features:
