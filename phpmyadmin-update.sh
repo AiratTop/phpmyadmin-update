@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Author: Airat Halitov @AiratTop
+# Author: AiratTop @AiratTop
 # GitHub: https://github.com/AiratTop/phpmyadmin-update
 # License: MIT
 
