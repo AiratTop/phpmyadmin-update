@@ -36,7 +36,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-**Airat Halitov**
+**AiratTop**
 
 - Website: [airat.top](https://airat.top)
 - GitHub: [@AiratTop](https://github.com/AiratTop)
