@@ -30,14 +30,19 @@ Feel free to suggest or add improvements if needed.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+The original shell script and technical documentation in this repository are licensed under the
+[Apache License 2.0](LICENSE), with copyright details in [NOTICE](NOTICE).
+
+phpMyAdmin is downloaded separately and is not covered by this repository's license. phpMyAdmin
+and the system tools used by the script remain subject to their respective licenses and terms.
 
 ---
 
 ## Author
 
-**AiratTop**
+**AiratTop (Airat Halitov)**
 
 - Website: [airat.top](https://airat.top)
 - GitHub: [@AiratTop](https://github.com/AiratTop)
+- Email: [mail@airat.top](mailto:mail@airat.top)
 - Repository: [phpmyadmin-update](https://github.com/AiratTop/phpmyadmin-update)

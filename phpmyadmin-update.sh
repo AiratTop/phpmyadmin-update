@@ -1,8 +1,9 @@
 #!/bin/bash
 
-# Author: AiratTop @AiratTop
+# Author: AiratTop (Airat Halitov)
 # GitHub: https://github.com/AiratTop/phpmyadmin-update
-# License: MIT
+# Email: mail@airat.top
+# License: Apache-2.0
 
 # Ensure script runs with sudo
 if [ "$EUID" -ne 0 ]; then
